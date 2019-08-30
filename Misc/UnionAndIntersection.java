@@ -3,7 +3,7 @@ import java.util.List;
 
 class UnionAndIntersection {
 
-  /* Brute Force
+  /* Brute Force  O(m*n)
   List<Integer> union(int[] a, int[] b) {
     List<Integer> c = new ArrayList<>();
     boolean flag = false;
@@ -41,7 +41,7 @@ class UnionAndIntersection {
 
 
   // Using Merge O(m+n)
-
+  
   List<Integer> union(int[] a, int[] b) {
     List<Integer> c = new ArrayList<>();
     int i = 0, j=0;
@@ -61,6 +61,13 @@ class UnionAndIntersection {
         j++;
       }
     }
+	
+	// Remaining elements
+	while(i < m) 
+		c.add(a[i++]);
+    while(j < n)
+		c.add(b[j++]);
+		 
     return c;
   }
 
