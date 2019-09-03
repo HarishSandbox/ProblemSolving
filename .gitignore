@@ -3,7 +3,6 @@
 
 
 # ignore following directories
-test/
 .idea/
 out/
 
