@@ -22,4 +22,5 @@ public class BinarySearchTreeTest {
     tree.printBFS();
 
   }
+
 }
