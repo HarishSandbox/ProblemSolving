@@ -1,5 +1,8 @@
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BinarySearchTreeTest {
 
   @Test
@@ -21,6 +24,15 @@ public class BinarySearchTreeTest {
     System.out.print("BFS: ");
     tree.printBFS();
 
+  }
+
+
+
+  @Test
+  public void dummy() {
+String s = "h";
+
+    System.out.println(s.substring(1,4));
   }
 
 }
