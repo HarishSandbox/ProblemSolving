@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
+/**Internal implementation of Priority Queue uses heap (max/min heap)
+ * based on max/min queue. (Basically heapsort related methods)
+ * An array of fixed size is used and A.heapSize is initially 0.
+ */
+
 public class PriorityQueueImpl {
 
 
