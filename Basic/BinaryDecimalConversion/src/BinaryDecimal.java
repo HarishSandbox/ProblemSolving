@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class BinaryDecimal {
 
-  int[] decimalToBinary(int n) {
+  int[] decimalToBinaryUsingStack(int n) {
     if (n==1)
       return new int[] {1};
     if (n==0)
@@ -30,6 +30,16 @@ public class BinaryDecimal {
 
       }
       return dec;
-
   }
+
+  String decimalToBinaryUsingString(int n){
+    String res = "";
+    while(n>0){
+      res = n%2 + " " + res;
+      n = n/2;
+    }
+    return res;
+  }
+
+
 }

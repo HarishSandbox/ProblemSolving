@@ -40,7 +40,7 @@ class UnionAndIntersection {
   */
 
 
-  // Using Merge O(m+n)
+  // Using Merge O(m+n)  - only works when the input arrays are already sorted
   
   List<Integer> union(int[] a, int[] b) {
     List<Integer> c = new ArrayList<>();
